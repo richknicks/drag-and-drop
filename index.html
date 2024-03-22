@@ -18,7 +18,7 @@
           </span>
           <!-- Backlog Content -->
           <div id="backlog-content" class="custom-scroll">
-            <ul class="drag-item-list" id="backlog-list"></ul>
+            <ul class="drag-item-list" id="backlog-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(0)"></ul>
           </div>
           <div class="add-btn-group">
             <div class="add-btn">
@@ -40,7 +40,7 @@
           </span>
           <!-- Progress Content -->
           <div id="progress-content" class="custom-scroll">
-            <ul class="drag-item-list" id="progress-list"></ul>
+            <ul class="drag-item-list" id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(1)"></ul>
           </div>
           <div class="add-btn-group">
             <div class="add-btn">
@@ -62,7 +62,7 @@
           </span>
           <!-- Complete Content -->
           <div id="complete-content" class="custom-scroll">
-            <ul class="drag-item-list" id="complete-list"></ul>
+            <ul class="drag-item-list" id="complete-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(2)"></ul>
           </div>
           <div class="add-btn-group">
             <div class="add-btn">
@@ -84,7 +84,7 @@
           </span>
           <!-- On Hold Content -->
           <div id="on-hold-content" class="custom-scroll">
-            <ul class="drag-item-list" id="on-hold-list"></ul>
+            <ul class="drag-item-list" id="on-hold-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(3)"></ul>
           </div>
           <div class="add-btn-group">
             <div class="add-btn">
